@@ -2,7 +2,9 @@ using System;
 using System.Collections.Generic;
 
 
+
 class Address
+
 {
     private string street;
     private string city;
@@ -29,7 +31,9 @@ class Address
 }
 
 
+
 class Customer
+
 {
     private string name;
     private Address address;
@@ -57,7 +61,9 @@ class Customer
 }
 
 
+
 class Product
+
 {
     private string name;
     private string productId;
@@ -84,7 +90,9 @@ class Product
 }
 
 
+
 class Order
+
 {
     private Customer customer;
     private List<Product> products;
@@ -129,7 +137,9 @@ class Order
 }
 
 
+
 class Program
+
 {
     static void Main(string[] args)
     {
