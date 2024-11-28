@@ -2,11 +2,14 @@ using System;
 using System.Collections.Generic;
 
 public class Comment
+
 {
     public string Name { get; set; }
     public string Text { get; set; }
 
+
     public Comment(string name, string text)
+
     {
         Name = name;
         Text = text;
@@ -14,6 +17,7 @@ public class Comment
 }
 
 public class Video
+
 {
     public string Title { get; set; }
     public string Author { get; set; }
@@ -21,6 +25,7 @@ public class Video
     public List<Comment> Comments { get; set; }
 
     public Video(string title, string author, int length)
+
     {
         Title = title;
         Author = author;
@@ -35,8 +40,10 @@ public class Video
 }
 
 class Program
+
 {
     static void Main(string[] args)
+    
     {
         // Create videos and comments
         Video video1 = new Video("Video 1", "Author 1", 360);
